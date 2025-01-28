@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todo-flask-app
-        image: sushrutnet/todo-flask-app:latest
+        image: sushrutnet/todo-flask-app
         ports:
         - containerPort: 5000
