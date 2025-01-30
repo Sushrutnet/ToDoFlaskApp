@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: todo-flask-app
-        image: <your-account-id>.dkr.ecr.<your-region>.amazonaws.com/flask-app:latest
+        image: todo-flask-app:latest
         ports:
         - containerPort: 5000
 
